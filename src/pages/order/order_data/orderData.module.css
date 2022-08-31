@@ -1,0 +1,27 @@
+.order_data {
+  max-height: 85vh;
+}
+.order_data_title {
+  font-size: 20px;
+  font-weight: 700;
+}
+.order_list {
+  padding: 12px 12px 0 0;
+  height: 560px;
+  overflow-y: scroll;
+}
+.total {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.total span {
+  color: green;
+}
+
+/* ========================== MEDIUM MEDIA ==========================  */
+@media screen and (max-width: 1023px) {
+  .order_data {
+    display: none;
+  }
+}

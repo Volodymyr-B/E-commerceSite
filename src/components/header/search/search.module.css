@@ -1,0 +1,49 @@
+.input_container {
+  position: relative;
+}
+
+.input {
+  padding-left: 20px;
+  width: 200px;
+  height: 40px;
+  border-radius: 35px;
+  border: 0;
+}
+
+.search_result {
+  position: absolute;
+  margin-top: 1px;
+  width: 370px;
+  right: -75px;
+  max-height: 400px;
+  background-color: white;
+  border-radius: 20px;
+  z-index: 22;
+}
+.search_modal {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 21;
+}
+
+/* ========================== MEDIUM MEDIA ==========================  */
+@media screen and (max-width: 1023px) {
+  .input {
+    width: 130px;
+  }
+}
+/* ========================== SMALL  MEDIA ==========================  */
+@media screen and (max-width: 600px) {
+  .input {
+    padding-left: 10px;
+    width: 70px;
+    height: 30px;
+  }
+  .search_result {
+    width: 280px;
+    right: -65px;
+  }
+}

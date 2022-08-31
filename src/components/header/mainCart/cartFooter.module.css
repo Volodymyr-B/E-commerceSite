@@ -1,0 +1,24 @@
+.cart_footer {
+  font-size: 20px;
+}
+.submit_container {
+  display: flex;
+  justify-content: center;
+}
+.submit_container button:disabled {
+  cursor: not-allowed;
+  background-color: grey;
+  color: black;
+}
+.total {
+  font-weight: 700;
+}
+/* ========================== SMALL  MEDIA ==========================  */
+@media screen and (max-width: 600px) {
+  .cart img {
+    width: 100px;
+  }
+  .name_price div {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,48 @@
+.card_container {
+  gap: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.card_count {
+  max-width: 110px;
+  max-height: 30px;
+  display: flex;
+  border-radius: 7px;
+  font-size: 16px;
+  border: 1px solid black;
+}
+.btn_left {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.btn_right {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.card_count button {
+  cursor: pointer;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  width: 30px;
+  height: 30px;
+  background-color: #ff902a;
+}
+.card_count button:hover {
+  background-color: #2f2105;
+}
+.card_count button:disabled {
+  cursor: not-allowed;
+  background-color: grey;
+}
+.product_quantity {
+  min-width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

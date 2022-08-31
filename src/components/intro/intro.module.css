@@ -1,0 +1,103 @@
+.intro {
+  margin-top: 75px;
+  overflow: hidden;
+  height: 765px;
+  background-color: #f6ebda;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+}
+.intro_bg {
+  position: absolute;
+}
+.img_top {
+  top: -10px;
+  right: -720px;
+  width: 600px;
+  height: 400px;
+  position: absolute;
+}
+.img_bottom {
+  top: 335px;
+  right: 100px;
+  width: 600px;
+  height: 400px;
+  position: absolute;
+}
+.text_container {
+  max-width: 490px;
+  z-index: 5;
+}
+.span {
+  color: #ff902a;
+}
+h2 {
+  font-size: 48px;
+  z-index: 5;
+}
+.text_info {
+  max-width: 390px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.intro_img_container {
+  margin-top: 10px;
+  z-index: 5;
+}
+
+.intro_img {
+  max-width: 525px;
+  max-height: 415px;
+}
+/* ========================== LARGE  MEDIA ==========================  */
+@media screen and (max-width: 1300px) {
+  .intro {
+    flex-direction: column;
+    align-items: center;
+  }
+  .img_top {
+    top: -330px;
+    right: -620px;
+  }
+  .img_bottom {
+    top: 35px;
+  }
+  .text_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* ========================== MEDIUM MEDIA ==========================  */
+@media screen and (max-width: 1023px) {
+}
+/* ========================== SMALL  MEDIA ==========================  */
+@media screen and (max-width: 600px) {
+  .intro {
+    margin-top: 25px;
+    height: 680px;
+    justify-content: center;
+    gap: 40px;
+  }
+  .intro_img_container {
+    margin-right: 25px;
+  }
+  .text_container {
+    gap: 20px;
+  }
+  .intro_img {
+    max-width: 325px;
+    max-height: 215px;
+  }
+  h2 {
+    font-size: 28px;
+    margin: 0 10px;
+  }
+  .text_info {
+    margin: 0 10px 25px;
+  }
+}

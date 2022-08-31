@@ -1,0 +1,13 @@
+.menu_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 65px;
+}
+
+/* ========================== SMALL  MEDIA ==========================  */
+@media screen and (max-width: 1300px) {
+  .menu_list {
+    gap: 30px;
+  }
+}

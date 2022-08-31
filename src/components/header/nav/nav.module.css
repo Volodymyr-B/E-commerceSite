@@ -1,0 +1,6 @@
+.nav:hover {
+  color: #ff902b;
+}
+.nav:active {
+  color: green;
+}

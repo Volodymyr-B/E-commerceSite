@@ -1,0 +1,12 @@
+.order_container {
+  height: 85vh;
+  padding-top: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.order_empty {
+  font-weight: 600;
+  font-size: 26px;
+}
