@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/E-commerceSite/static/css/main.3a69098b.css",
+    "main.js": "/E-commerceSite/static/js/main.0ca88bd8.js",
+    "static/media/img-hero.png": "/E-commerceSite/static/media/img-hero.23cffd7fa2c274071710.png",
+    "static/media/footer-BG.png": "/E-commerceSite/static/media/footer-BG.4060fa4829bd0979c852.png",
+    "static/media/BG-pic.png": "/E-commerceSite/static/media/BG-pic.294c5547821fbb6f2a3d.png",
+    "static/media/product6.png": "/E-commerceSite/static/media/product6.a8aab28a26d443bab1b1.png",
+    "static/media/product1.png": "/E-commerceSite/static/media/product1.55cd42136989e942efb6.png",
+    "static/media/product8.png": "/E-commerceSite/static/media/product8.e1b03d18d6932a2bf889.png",
+    "static/media/product4.png": "/E-commerceSite/static/media/product4.748d260943c5ac08b9d3.png",
+    "static/media/product5.png": "/E-commerceSite/static/media/product5.f89f3de212e23a2cbc55.png",
+    "static/media/product2.png": "/E-commerceSite/static/media/product2.a07471e32767ff780ce0.png",
+    "static/media/product9.png": "/E-commerceSite/static/media/product9.9b851570e69b4c2b8697.png",
+    "static/media/product7.png": "/E-commerceSite/static/media/product7.ca7d59fb31deacd899d0.png",
+    "static/media/product3.png": "/E-commerceSite/static/media/product3.e959f22530b6e64e7e77.png",
+    "static/media/card-testi1.png": "/E-commerceSite/static/media/card-testi1.b9b50959c65ca25c9fbf.png",
+    "static/media/card-testi2.png": "/E-commerceSite/static/media/card-testi2.2aa035d613afc899beff.png",
+    "static/media/card-testi3.png": "/E-commerceSite/static/media/card-testi3.8bc28e5221c5819debe6.png",
+    "static/media/BG-img.png": "/E-commerceSite/static/media/BG-img.6be8c120e9971c156948.png",
+    "static/media/intro-BG.png": "/E-commerceSite/static/media/intro-BG.4a572a4f922ad7667fed.png",
+    "static/media/delivery-image2.png": "/E-commerceSite/static/media/delivery-image2.dac71e91a33e4e3b416e.png",
+    "index.html": "/E-commerceSite/index.html",
+    "main.3a69098b.css.map": "/E-commerceSite/static/css/main.3a69098b.css.map",
+    "main.0ca88bd8.js.map": "/E-commerceSite/static/js/main.0ca88bd8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a69098b.css",
+    "static/js/main.0ca88bd8.js"
+  ]
+}
