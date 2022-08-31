@@ -71,10 +71,6 @@ h2 {
     align-items: center;
   }
 }
-
-/* ========================== MEDIUM MEDIA ==========================  */
-@media screen and (max-width: 1023px) {
-}
 /* ========================== SMALL  MEDIA ==========================  */
 @media screen and (max-width: 600px) {
   .intro {

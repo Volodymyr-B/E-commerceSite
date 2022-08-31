@@ -21,13 +21,13 @@ export const deliveryImg = [
   {
     id: 1,
     img: delivery1,
-    text: "choose your coffee",
+    text: "Choose your coffee",
     info: "there are 20+ coffee for you",
   },
   {
     id: 2,
     img: delivery2,
-    text: "we delivery it for you",
+    text: "We delivery it for you",
     info: "Choose delivery service",
   },
   {

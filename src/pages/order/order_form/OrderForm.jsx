@@ -42,6 +42,7 @@ const OrderForm = () => {
             {...register("phone", {
               required: true,
               minLength: 10,
+              maxLength: 10,
             })}
             type="number"
             placeholder="phone +38___ __ __ ___*"

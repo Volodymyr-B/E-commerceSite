@@ -10,3 +10,16 @@
   font-weight: 600;
   font-size: 26px;
 }
+/* ========================== MEDIUM MEDIA ==========================  */
+@media screen and (max-width: 1023px) {
+  .order_container {
+    height: auto;
+    padding-top: 95px;
+  }
+}
+/* ========================== SMALL  MEDIA ==========================  */
+@media screen and (max-width: 600px) {
+  .order_container {
+    padding-top: 75px;
+  }
+}
